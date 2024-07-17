@@ -24,17 +24,17 @@ const BenefitTitleContainer = ({ className = "" }) => {
     {
       question: "What support do merchants receive?",
       answer:
-        "Merchants can assist customers with loan applications and repayments, boosting their sales and customer loyalty..",
+        "Merchants can assist customers with loan applications and repayments, boosting their sales and customer loyalty.",
     },
     {
       question: "Is my information secure with Greattr?",
       answer:
-        "Absolutely! Greattr prioritizes security, implementing robust measures to safeguard all transactions and personal data. Your information remains confidential.",
+        "Yes, we use robust security measures to ensure all transactions and personal information are safe and confidential.",
     },
     {
       question: "Who can use Greattr?",
       answer:
-        "Greattr caters to a wide audience, including individual consumers, small businesses, and anyone seeking flexible payment solutions for both purchases and bills.",
+        "Greattr is designed for low-income individuals, including those earning minimum wages and those without a trustworthy credit history.",
     },
   ];
 

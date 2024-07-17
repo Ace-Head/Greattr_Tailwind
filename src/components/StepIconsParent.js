@@ -8,19 +8,23 @@ const StepIconsParent = ({
 }) => {
   return (
     <div
-      className={`flex-1 flex flex-col items-start justify-start gap-[1.431rem] min-w-[17.625rem] max-w-full text-left text-[1.431rem] text-gray font-heading-h6 ${className}`}
+      className={`flex-1 flex flex-col items-start justify-start gap-[1.431rem] min-w-[17.625rem] max-w-[15.625rem] text-left text-[1.431rem] text-gray font-heading-h6 ${className}`}
     >
-      <img
-        className="w-[3.569rem] h-[3.569rem] relative overflow-hidden shrink-0"
-        loading="lazy"
-        alt=""
-        src={googlePlaySvgrepoCom1}
-      />
+      <div className="w-full flex md:block justify-center sm:justify-start">
+        <img
+          className="w-[3.569rem] h-[3.569rem] relative overflow-hidden shrink-0"
+          loading="lazy"
+          alt=""
+          src={googlePlaySvgrepoCom1}
+        />
+      </div>
+
       <div className="self-stretch flex flex-col items-start justify-start gap-[1rem]">
-        <div className="self-stretch relative leading-[1.714rem] font-medium mq450:text-[1.125rem] mq450:leading-[1.375rem]">
+        <div className="self-stretch flex justify-center items-center relative leading-[1.714rem] font-medium text-[1.125rem]">
           {heading3SpecialFinancingO}
         </div>
-        <div className="self-stretch relative text-[1.069rem] leading-[1.982rem]">
+
+        <div className="flex justify-center items-center relative text-[1.069rem] leading-[1.982rem] px-5">
           {getStartedByDownloadingTh}
         </div>
       </div>
